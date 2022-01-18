@@ -1,4 +1,4 @@
-import opc
+i mport opc
 from time import sleep
 
 client = opc.Client('localhost:7890')
