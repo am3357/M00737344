@@ -4,7 +4,7 @@ import random
 
 client = opc.Client('localhost:7890')
 
-leds = [(0,0,0)]*360 #white background
+leds = [(0,0,0)]*360 #black background
 client.put_pixels(leds)
 
 leds[300]=(0,0,255)
