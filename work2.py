@@ -527,13 +527,13 @@ for led in range(359,338,-1):
             client.put_pixels(leds)
             time.sleep(0.01)
 #M
-for led in range(59,52,-1):
+for led in range(59,53,-1):
     
-        if led<54:
+        if led<55:
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==54:
+        elif led==55:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -541,13 +541,13 @@ for led in range(59,52,-1):
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(119,112,-1):
+for led in range(119,113,-1):
     
-        if led<114:
+        if led<115:
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==114:
+        elif led==115:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -555,13 +555,13 @@ for led in range(119,112,-1):
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(179,172,-1):
+for led in range(179,173,-1):
     
-        if led<174:
+        if led<175:
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==174:
+        elif led==175:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -569,13 +569,13 @@ for led in range(179,172,-1):
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(239,232,-1):
+for led in range(239,233,-1):
     
-        if led<234:
+        if led<235:
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==234:
+        elif led==235:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -583,17 +583,17 @@ for led in range(239,232,-1):
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(299,292,-1):
+for led in range(299,293,-1):
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(359,352,-1):
+for led in range(359,353,-1):
     
-        if led<354:
+        if led<355:
             leds[led]=(255,0,0)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==354:
+        elif led==355:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -602,13 +602,13 @@ for led in range(359,352,-1):
             client.put_pixels(leds)
             time.sleep(0.01)
 #!
-for led in range(59,55,-1):
+for led in range(59,56,-1):
     
-        if led<57:
+        if led<58:
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==57:
+        elif led==58:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -616,13 +616,13 @@ for led in range(59,55,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(119,115,-1):
+for led in range(119,116,-1):
     
-        if led<117:
+        if led<118:
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==117:
+        elif led==118:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -630,13 +630,13 @@ for led in range(119,115,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(179,175,-1):
+for led in range(179,176,-1):
     
-        if led<177:
+        if led<178:
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==177:
+        elif led==178:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -644,13 +644,13 @@ for led in range(179,175,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(239,235,-1):
+for led in range(239,236,-1):
     
-        if led<237:
+        if led<238:
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==237:
+        elif led==238:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -658,17 +658,19 @@ for led in range(239,235,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(299,295,-1):
+for led in range(299,296,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-for led in range(359,355,-1):
+            
+            
+for led in range(359,356,-1):
     
-        if led<357:
+        if led<358:
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-        elif led==357:
+        elif led==358:
             leds[led]=(0,255,0)
             client.put_pixels(leds)
             time.sleep(0.01)
@@ -676,7 +678,5 @@ for led in range(359,355,-1):
             leds[led]=(0,0,255)
             client.put_pixels(leds)
             time.sleep(0.01)
-    
 
-    
-
+        
