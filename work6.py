@@ -6,6 +6,19 @@ client = opc.Client('localhost:7890')
 
 leds = [(255,255,255)]*360 #black background
 client.put_pixels(leds)
+def block(k):
+    while k <360:
+        for led in range(k,k+4):
+            leds[led]=(0,0,0)
+            client.put_pixels(leds)
+            k=k+15
+    
+def swipe(k):
+    while k >-1:
+        block(k)
+        k=k-1
+        time.sleep(0.1)
+        client.put_pixels(leds)
 
 def pick(k,j,l,h,g): # k is the main led, j is last led, l is first, h and g are already used leds,h1 is the left side of m's used led and g1 is the right side of m's used led
     x=k-1
@@ -130,7 +143,5 @@ leds[348]=(255,95,0)
 time.sleep(0.1)
 client.put_pixels(leds)
 #M
-def eraser(k):
-    x=55
-    leds[x]=(255,255,255)
-eraser(55)
+swipe(56)
+
