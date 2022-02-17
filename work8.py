@@ -44,13 +44,13 @@ def pick(k,j,l,h,g): # k is the main led, j is last led, l is first, h and g are
             y=g+1 
         if x==j and y==l:
             break
-pick(30,15,46,-1,-1)
-pick(90,75,106,-1,-1)
-pick(150,135,166,-1,-1)
-pick(210,195,226,-1,-1)
-pick(270,255,286,-1,-1)
-pick(330,315,346,-1,-1)
-slide(59,45)
+pick(30,-1,59,-1,-1)
+pick(90,59,119,-1,-1)
+pick(150,120,180,-1,-1)
+pick(210,180,240,-1,-1)
+pick(270,240,300,-1,-1)
+pick(330,300,360,-1,-1)
+
 
 
 
